@@ -92,5 +92,7 @@ var Car2 = /** @class */ (function () {
     };
     Car2.prototype.lightOn = function () {
     };
+    Car2.prototype.sc = function () {
+    };
     return Car2;
 }());

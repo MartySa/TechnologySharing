@@ -66,6 +66,7 @@ interface Light
 // 接口 灯光警报，继承接口Alarm
 interface LightableAlarm extends Alarm
 {
+
     lightOn() : void;
     lightOff() : void;
 }
@@ -123,6 +124,10 @@ class Car2 implements LightableAlarm
     }
 
     lightOn() : void 
+    {
+    }
+
+    sc() : any
     {
         
     }
